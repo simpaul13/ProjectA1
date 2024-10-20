@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl mx-auto px-6">
       <!-- Section Header -->
       <div class="text-center mb-12">
-        <h2 class="text-4xl font-extrabold mb-4">My Workers</h2>
+        <h2 class="text-4xl font-extrabold mb-4 text-gray-950">My Workers</h2>
         <p class="text-gray-600 max-w-2xl mx-auto">
           Meet the talented team of professionals who specialize in photography, styling, 
           and creative direction to ensure every detail is captured perfectly.
