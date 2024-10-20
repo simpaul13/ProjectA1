@@ -1,7 +1,9 @@
 <template>
   <div>
     <Nav />
-    <HeroSection />
+    <HeroSection id="home" />
+    <Gallery id="work" />
+    <About id="about" />
     <!-- <NuxtRouteAnnouncer />
     <NuxtWelcome /> -->
   </div>

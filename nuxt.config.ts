@@ -5,5 +5,11 @@ export default defineNuxtConfig({
   components : [
     { path: '~/components', pathPrefix: false },
   ],
-  modules: ['@nuxt/ui', '@nuxtjs/tailwindcss']
+  modules: ['@nuxt/ui', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      'Fredoka': [400, 500, 700],
+    },
+    display: 'swap',
+  },
 })
