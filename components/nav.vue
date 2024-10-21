@@ -59,12 +59,12 @@
           >
             Work
           </a>
-          <NuxtLink
-            to="/contact"
+          <a
+            href="#contact"
             :class="[textClasses, linkHoverClasses, navLinkTextSize]"
           >
             Contact
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </div>
@@ -101,14 +101,14 @@
           >
             Work
           </a>
-          <NuxtLink
-            to="/contact"
+          <a
+            href="#contact"
             class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded"
             @click="toggleMenu"
             :class="mobileNavLinkTextSize"
           >
             Contact
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </transition>

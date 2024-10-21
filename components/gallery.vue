@@ -1,24 +1,19 @@
 <template>
   <section class="bg-[#FAF4E6] min-h-screen flex items-center py-16">
-    <div class="max-w-screen-xl mx-auto px-6">
-      <!-- Section Header -->
-      <div class="text-center mb-12">
-        <h2 class="text-4xl font-extrabold mb-4">My Workers</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">
-          Meet the talented team of professionals who specialize in photography, styling, 
-          and creative direction to ensure every detail is captured perfectly.
-        </p>
-      </div>
+    <div class="w-full px-4 md:px-8 lg:px-24">
 
       <!-- Worker Cards Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5">
         <div
           v-for="(worker, index) in workers"
           :key="index"
-          class="relative group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow"
+          :class="[
+            'relative group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow',
+            (index === 0 || index === workers.length - 1) && 'lg:col-span-2'
+          ]"
         >
           <!-- Image Wrapper -->
-          <div class="h-[500px] w-full relative">
+          <div class="h-[300px] sm:h-[400px] lg:h-[500px] w-full relative">
             <img
               :src="worker.image"
               :alt="`Image of ${worker.title}`"
@@ -33,11 +28,11 @@
 
             <!-- Text Section (Default at Bottom, Moves to Center on Hover) -->
             <div
-              class="absolute inset-x-0 flex flex-col items-center text-white transition-all duration-300 ease-in-out 
-              bottom-6 group-hover:bottom-1/3 group-hover:-translate-y-1/2"
+              class="absolute inset-x-0 flex flex-col items-center text-white transition-all duration-300 ease-in-out
+              bottom-4 sm:bottom-6 group-hover:bottom-1/3 group-hover:-translate-y-1/2 px-4 text-center"
             >
-              <h3 class="text-2xl font-semibold mb-2">{{ worker.title }}</h3>
-              <p class="text-sm tracking-wider">GET TO KNOW ME</p>
+              <h3 class="text-xl sm:text-2xl font-semibold mb-1 sm:mb-2">{{ worker.title }}</h3>
+              <p class="text-xs sm:text-sm tracking-wider">GET TO KNOW ME</p>
             </div>
           </div>
         </div>
@@ -48,10 +43,10 @@
 
 <script setup>
 const workers = [
-  { title: 'Casual', image: 'https://picsum.photos/500/700?random=1' },
-  { title: 'Fashion', image: 'https://picsum.photos/500/700?random=2' },
-  { title: 'Editorial', image: 'https://picsum.photos/500/700?random=3' },
-  { title: 'Commercial', image: 'https://picsum.photos/500/700?random=4' },
+  { title: 'Casual', image: 'https://picsum.photos/700/900?random=1' },
+  { title: 'Fashion', image: 'https://picsum.photos/700/900?random=2' },
+  { title: 'Editorial', image: 'https://picsum.photos/700/900?random=3' },
+  { title: 'Commercial', image: 'https://picsum.photos/700/900?random=4' },
 ];
 </script>
 

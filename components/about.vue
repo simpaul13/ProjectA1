@@ -13,7 +13,7 @@
 
       <!-- Text Content -->
       <article class="w-full lg:w-1/2 lg:pl-10 text-center lg:text-left">
-        <h1 class="text-4xl font-bold mb-4">Roberto Morales</h1>
+        <h1 class="text-4xl mb-4"><p>Hi, I'm</p> <span class="font-bold">Roberto</span> Morales</h1>
         <p class="text-gray-600 mb-4">
           Photography | Styling Design | Creative Direction
         </p>
