@@ -9,7 +9,6 @@
           and creative direction to ensure every detail is captured perfectly.
         </p>
       </div>
-    <div class="w-full px-4 md:px-8 lg:px-24">
 
       <!-- Worker Cards Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5">
