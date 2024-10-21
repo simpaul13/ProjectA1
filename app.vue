@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="light">
     <Nav />
     <HeroSection id="home" />
     <Gallery id="work" />

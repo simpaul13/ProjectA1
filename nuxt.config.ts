@@ -12,7 +12,4 @@ export default defineNuxtConfig({
     },
     display: 'swap',
   },
-  colorMode: {
-    preference: 'light', // default value of $colorMode.preference
-  },
 })
