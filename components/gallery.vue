@@ -1,6 +1,6 @@
 <template>
   <section class="bg-[#FAF4E6] min-h-screen flex items-center py-16">
-    <div class="max-w-screen-xl mx-auto px-6">
+    <div class="w-full mx-auto px-6">
       <!-- Section Header -->
       <div class="text-center mb-12">
         <h2 class="text-4xl font-extrabold mb-4 text-gray-950">My Workers</h2>
