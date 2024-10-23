@@ -21,7 +21,7 @@
     <!-- Content Area -->
     <div class="relative z-20 flex items-center justify-center md:justify-start min-h-screen text-left">
       <div class="p-4 md:p-6 text-white max-w-lg mx-4 md:ml-16">
-        <h2 class="text-3xl md:text-5xl font-medium mb-4 md:mb-8">Transform Your Business</h2>
+        <h2 class="text-4xl md:text-7xl font-medium mb-4 md:mb-8">Transform Your Business</h2>
         <p class="text-base md:text-lg mb-6 md:mb-8">
           Welcome to my captivating gallery, where every click tells a unique story. Immerse yourself in a visual journey where every image speaks volumes.
         </p>
