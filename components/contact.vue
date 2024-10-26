@@ -243,6 +243,15 @@
           src="https://picsum.photos/1200/500"
           alt="steps illustration"
         />
+        <div class="w-full mt-5">
+          <a
+            href="https://forms.gle/yKAFxyLFn6Cz7E9o6"
+            target="_blank"
+            class="inline-block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300 w-full text-center"
+          >
+            Book an Appointment
+          </a>
+        </div>
       </div>
     </div>
   </section>

@@ -27,16 +27,16 @@
         </p>
         <!-- Adjusted Button Layout -->
         <div class="flex flex-col md:flex-row md:items-center">
-          <NuxtLink to="/contact">
+          <a  href="#contact">
             <button class="px-6 py-3 bg-blue-500 rounded hover:bg-blue-600 transition duration-300 mb-4 md:mb-0 md:mr-4 w-full md:w-auto">
               Get Started
             </button>
-          </NuxtLink>
-          <NuxtLink to="/learn-more">
+          </a>
+          <a href="#work">
             <button class="px-6 py-3 border-2 border-blue-500 rounded hover:bg-blue-600 hover:text-white transition duration-300 w-full md:w-auto">
               Learn More
             </button>
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </div>
