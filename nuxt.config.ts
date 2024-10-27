@@ -2,13 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  build: {
-    extractCSS: true,
-    optimizeCSS: true,
-  },
   components : [
     { path: '~/components', pathPrefix: false },
   ],
+  colorMode: {
+    preference: 'light', // default value of $colorMode.preference
+  },
   modules: ['@nuxt/ui', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
